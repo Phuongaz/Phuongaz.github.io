@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="theBackground">
+      <div class="appShortcut">
+        <img src="./src/img/logo.png" alt="logo" width="48" height="48" onclick="return openApp();" title="Open Window">
+      </div>
+    <div class="theWindow">
+        <div class="topBar">
+            <img class="logo" src="./src/img/logo.png" alt="logo" width="20" height="20">
+            <p class="title">My Profile</p>
+            <div class="buttons">
+                <img class="minimize" src="./src/img/minimize.png" alt="minimize" onclick="return closeApp();">
+                <img class="maximize" src="./src/img/maximize.png" alt="maximize">
+                <img class="exit" src="./src/img/exit.png" alt="exit" onclick="return closeApp();" title="Close Button">
+            </div>
+        </div>
+        <div class="main">
+            <div class="title">
+                <small>Hello, my name is</small>
+                <h1>Nguyen Tan Phuong</h1>
+                <div class="socials">
+                    <a href="https://github.com/phuongaz" class="h4 mx-1 text-secondary" title="Github"><i class="fab fa-github"></i></a>
+                    <a href="https://facebook.com/phuong0ngu" class="h4 mx-1 text-secondary" title="Behance"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="portfolio">
+                    <small class="title">About me</small>
+                    <p class="description">My name is Phuong, I come from Long An, Viet Nam, currently I am studying cybersecurity at Van Hien University. I have knowledge of PHP and a bit of Go. I hope to become a good cybersecurity expert.</p>
+                </div>
+                <div class="skills">
+                    <small class="title">My Skills</small>
+                    <i class="fab fa-java" title="Java"></i>
+                    <i class="fab fa-php" title="PHP"></i>
+                    <i class="fa-brands fa-golang" title="Go"></i>
+                    <i class="fab fa-python" title="Python"></i>
+                </div>
+            </div>
+            <img src="https://avatars.githubusercontent.com/u/37770098?v=4" alt="Phuongaz" width="375">
+        </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
